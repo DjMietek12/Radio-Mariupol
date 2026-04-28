@@ -30,9 +30,9 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "87.106.62.92", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 9258,       
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "zenkai-og", 
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "129.150.56.21", 
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 25582,       
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "glace", 
                 secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
             },           
             
